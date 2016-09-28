@@ -1,0 +1,1116 @@
+[30-Aug-2016 20:15:20 UTC] PHP Warning:  require(../lib/page.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/cats/crear.php on line 3
+[30-Aug-2016 20:15:20 UTC] PHP Stack trace:
+[30-Aug-2016 20:15:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/crear.php:0
+[30-Aug-2016 20:15:20 UTC] PHP Fatal error:  require(): Failed opening required '../lib/page.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/admin/cats/crear.php on line 3
+[30-Aug-2016 20:15:20 UTC] PHP Stack trace:
+[30-Aug-2016 20:15:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/crear.php:0
+[30-Aug-2016 20:15:41 UTC] PHP Fatal error:  Class 'Page' not found in /home/ubuntu/workspace/admin/cats/crear.php on line 13
+[30-Aug-2016 20:15:41 UTC] PHP Stack trace:
+[30-Aug-2016 20:15:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/crear.php:0
+[30-Aug-2016 20:51:01 UTC] PHP Warning:  require(../lib/page.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/cats/index.php on line 3
+[30-Aug-2016 20:51:01 UTC] PHP Stack trace:
+[30-Aug-2016 20:51:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/index.php:0
+[30-Aug-2016 20:51:01 UTC] PHP Fatal error:  require(): Failed opening required '../lib/page.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/admin/cats/index.php on line 3
+[30-Aug-2016 20:51:01 UTC] PHP Stack trace:
+[30-Aug-2016 20:51:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/index.php:0
+[30-Aug-2016 21:06:41 UTC] PHP Fatal error:  Class 'Validator' not found in /home/ubuntu/workspace/admin/cats/crear.php on line 15
+[30-Aug-2016 21:06:41 UTC] PHP Stack trace:
+[30-Aug-2016 21:06:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/crear.php:0
+[30-Aug-2016 21:18:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/editar.php(24): conexion::ejecutar('UPDATE categori...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[30-Aug-2016 21:19:09 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE), expecting ')' in /home/ubuntu/workspace/admin/cats/editar.php on line 23
+[30-Aug-2016 21:19:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jugueton.categoriass' doesn't exist' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/editar.php(24): conexion::ejecutar('UPDATE categori...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[30-Aug-2016 21:20:44 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/admin/cats/editar.php on line 23
+[30-Aug-2016 21:21:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/editar.php(24): conexion::ejecutar('UPDATE categori...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[31-Aug-2016 01:58:46 UTC] PHP Fatal error:  Class 'Page' not found in /home/ubuntu/workspace/admin/cats/crear.php on line 8
+[31-Aug-2016 01:58:46 UTC] PHP Stack trace:
+[31-Aug-2016 01:58:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/crear.php:0
+[30-Aug-2016 19:59:31 America/El_Salvador] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/admin/cats/crear.php on line 56
+[30-Aug-2016 19:59:31 America/El_Salvador] PHP Stack trace:
+[30-Aug-2016 19:59:31 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/crear.php:0
+[31-Aug-2016 01:59:56 UTC] PHP Warning:  require(../lib/database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/cats/crear.php on line 4
+[31-Aug-2016 01:59:56 UTC] PHP Stack trace:
+[31-Aug-2016 01:59:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/crear.php:0
+[31-Aug-2016 01:59:56 UTC] PHP Fatal error:  require(): Failed opening required '../lib/database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/admin/cats/crear.php on line 4
+[31-Aug-2016 01:59:56 UTC] PHP Stack trace:
+[31-Aug-2016 01:59:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/crear.php:0
+[31-Aug-2016 02:00:05 UTC] PHP Warning:  require(/../lib/database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/cats/crear.php on line 4
+[31-Aug-2016 02:00:05 UTC] PHP Stack trace:
+[31-Aug-2016 02:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/crear.php:0
+[31-Aug-2016 02:00:05 UTC] PHP Fatal error:  require(): Failed opening required '/../lib/database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/admin/cats/crear.php on line 4
+[31-Aug-2016 02:00:05 UTC] PHP Stack trace:
+[31-Aug-2016 02:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/crear.php:0
+[30-Aug-2016 20:01:08 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jugueton.categoria' doesn't exist' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/crear.php(21): Database::getRow('SELECT * FROM c...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[30-Aug-2016 20:33:39 America/El_Salvador] PHP Fatal error:  Call to undefined method Database::obtenerFilas() in /home/ubuntu/workspace/admin/cats/crear.php on line 21
+[30-Aug-2016 20:33:39 America/El_Salvador] PHP Stack trace:
+[30-Aug-2016 20:33:39 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/crear.php:0
+[31-Aug-2016 09:41:18 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/cats/index.php(33): Database::getRows('SELECT * FROM c...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[31-Aug-2016 09:41:23 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/cats/index.php(33): Database::getRows('SELECT * FROM c...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[31-Aug-2016 09:50:05 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/clientes/index.php(34): Database::getRows('SELECT * FROM c...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[31-Aug-2016 09:51:58 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/clientes/index.php(34): Database::getRows('SELECT * FROM c...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[31-Aug-2016 09:52:35 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/clientes/index.php(34): Database::getRows('SELECT * FROM c...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[31-Aug-2016 09:54:09 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/clientes/index.php(34): Database::getRows('SELECT * FROM c...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[31-Aug-2016 09:54:19 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/clientes/index.php(34): Database::getRows('SELECT * FROM c...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[31-Aug-2016 09:55:03 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/clientes/index.php(34): Database::getRows('SELECT * FROM c...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[31-Aug-2016 09:57:38 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/clientes/index.php(34): Database::getRows('SELECT * FROM c...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[31-Aug-2016 16:11:51 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/admin/clientes/index.php on line 71
+[31-Aug-2016 16:15:07 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/admin/clientes/index.php on line 72
+[02-Sep-2016 01:35:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoría' in 'field list'' in /home/ubuntu/workspace/admin/lib/pagina.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(43): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/crear.php(9): conexion::obtenerValor('SELECT categor?...', 0, Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 43
+[02-Sep-2016 02:13:00 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/admin/cats/crear.php on line 4
+[02-Sep-2016 02:13:21 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/admin/cats/crear.php on line 4
+[02-Sep-2016 02:13:41 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/admin/cats/crear.php on line 4
+[02-Sep-2016 02:16:59 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/admin/cats/crear.php on line 4
+[02-Sep-2016 03:12:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_clasificaciona' in 'where clause'' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/claf/crear.php(47): conexion::ejecutar('UPDATE clasific...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[10-Sep-2016 23:49:43 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/admin/prod/crear.php on line 36
+[11-Sep-2016 01:56:42 UTC] PHP Warning:  require(../lib/page.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/prod/crear.php on line 4
+[11-Sep-2016 01:56:42 UTC] PHP Stack trace:
+[11-Sep-2016 01:56:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 01:56:42 UTC] PHP Fatal error:  require(): Failed opening required '../lib/page.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/admin/prod/crear.php on line 4
+[11-Sep-2016 01:56:42 UTC] PHP Stack trace:
+[11-Sep-2016 01:56:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 01:57:19 UTC] PHP Fatal error:  Class 'Page' not found in /home/ubuntu/workspace/admin/prod/crear.php on line 14
+[11-Sep-2016 01:57:19 UTC] PHP Stack trace:
+[11-Sep-2016 01:57:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[10-Sep-2016 19:58:10 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jugueton.categoria' doesn't exist' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/lib/pagina.php(299): Database::getRows('SELECT id_categ...', NULL)
+#2 /home/ubuntu/workspace/admin/prod/crear.php(127): pagina::setCombo('categoria', NULL, 'SELECT id_categ...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[10-Sep-2016 20:01:51 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nombre_categoria' in 'field list'' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/lib/pagina.php(299): Database::getRows('SELECT id_categ...', NULL)
+#2 /home/ubuntu/workspace/admin/prod/crear.php(127): pagina::setCombo('categoria', NULL, 'SELECT id_categ...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[11-Sep-2016 11:37:50 America/El_Salvador] PHP Fatal error:  Class 'Validator' not found in /home/ubuntu/workspace/admin/prod/crear.php on line 51
+[11-Sep-2016 11:37:50 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 11:37:50 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:43:01 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/admin/lib/pagina.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(43): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/prod/crear.php(35): conexion::obtenerValor('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 43
+[11-Sep-2016 12:45:05 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/admin/lib/pagina.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(43): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/prod/crear.php(35): conexion::obtenerValor('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 43
+[11-Sep-2016 12:46:19 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/admin/lib/pagina.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(43): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/prod/crear.php(36): conexion::obtenerValor('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 43
+[11-Sep-2016 12:47:11 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/admin/lib/pagina.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(43): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/prod/crear.php(36): conexion::obtenerValor('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 43
+[11-Sep-2016 12:47:15 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/admin/lib/pagina.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(43): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/prod/crear.php(36): conexion::obtenerValor('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 43
+[11-Sep-2016 12:47:31 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/admin/lib/pagina.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(43): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/prod/crear.php(36): conexion::obtenerValor('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 43
+[11-Sep-2016 12:48:58 America/El_Salvador] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/admin/lib/pagina.php on line 46
+[11-Sep-2016 12:48:58 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:48:58 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:48:58 America/El_Salvador] PHP   2. conexion::obtenerValor() /home/ubuntu/workspace/admin/prod/crear.php:36
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Warning:  Illegal string offset 'nombre_producto' in /home/ubuntu/workspace/admin/prod/crear.php on line 38
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Warning:  Illegal string offset 'descripcion_producto' in /home/ubuntu/workspace/admin/prod/crear.php on line 39
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Warning:  Illegal string offset 'existencias_producto' in /home/ubuntu/workspace/admin/prod/crear.php on line 40
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Warning:  Illegal string offset 'precio_normal_producto' in /home/ubuntu/workspace/admin/prod/crear.php on line 41
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Warning:  Illegal string offset 'precio_oferta_producto' in /home/ubuntu/workspace/admin/prod/crear.php on line 42
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Warning:  Illegal string offset 'precio_afiliado_producto' in /home/ubuntu/workspace/admin/prod/crear.php on line 43
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Warning:  Illegal string offset 'imagen' in /home/ubuntu/workspace/admin/prod/crear.php on line 44
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Warning:  Illegal string offset 'id_categoria' in /home/ubuntu/workspace/admin/prod/crear.php on line 45
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Warning:  Illegal string offset 'id_clasificacion' in /home/ubuntu/workspace/admin/prod/crear.php on line 46
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Warning:  Illegal string offset 'id_marca' in /home/ubuntu/workspace/admin/prod/crear.php on line 47
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Warning:  Illegal string offset 'codigo' in /home/ubuntu/workspace/admin/prod/crear.php on line 48
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 12:50:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/crear.php:0
+[11-Sep-2016 19:01:06 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/admin/prod/crear.php on line 53
+[11-Sep-2016 14:33:06 America/El_Salvador] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/admin/prod/index.php on line 48
+[11-Sep-2016 14:33:06 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 14:33:06 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/index.php:0
+[11-Sep-2016 23:13:55 UTC] PHP Fatal error:  Class 'Page' not found in /home/ubuntu/workspace/admin/prod/estado.php on line 19
+[11-Sep-2016 23:13:55 UTC] PHP Stack trace:
+[11-Sep-2016 23:13:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/estado.php:0
+[11-Sep-2016 17:15:34 America/El_Salvador] PHP Fatal error:  Class 'Page' not found in /home/ubuntu/workspace/admin/prod/estado.php on line 85
+[11-Sep-2016 17:15:34 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 17:15:34 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/estado.php:0
+[12-Sep-2016 00:09:06 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/admin/prod/estado.php on line 64
+[12-Sep-2016 05:44:24 UTC] PHP Warning:  str_split() expects parameter 2 to be long, string given in /home/ubuntu/workspace/admin/prod/prevalidar.php on line 5
+[12-Sep-2016 05:44:24 UTC] PHP Stack trace:
+[12-Sep-2016 05:44:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/prevalidar.php:0
+[12-Sep-2016 05:44:24 UTC] PHP   2. str_split() /home/ubuntu/workspace/admin/prod/prevalidar.php:5
+[12-Sep-2016 15:07:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/admin/cats/editar.php on line 75
+[12-Sep-2016 15:29:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/admin/cats/editar.php on line 63
+[12-Sep-2016 15:42:43 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/admin/clientes/ver.php on line 43
+[12-Sep-2016 17:43:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/admin/cats/editar.php on line 79
+[12-Sep-2016 17:44:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/admin/cats/editar.php on line 79
+[12-Sep-2016 12:08:01 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'categoria'' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/estado.php(56): conexion::ejecutar('UPDATE categori...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[12-Sep-2016 18:38:47 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'categoria'' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/estado.php(56): conexion::ejecutar('UPDATE categori...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[13-Sep-2016 04:03:02 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/ubuntu/workspace/admin/nots/editar.php on line 57
+[13-Sep-2016 04:03:25 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/admin/nots/editar.php on line 59
+[13-Sep-2016 04:05:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/admin/nots/editar.php on line 103
+[13-Sep-2016 04:13:59 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/ubuntu/workspace/admin/nots/editar.php on line 55
+[13-Sep-2016 04:15:09 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/admin/nots/editar.php on line 57
+[12-Sep-2016 23:13:25 America/El_Salvador] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/admin/eventos/index.php on line 40
+[12-Sep-2016 23:13:25 America/El_Salvador] PHP Stack trace:
+[12-Sep-2016 23:13:25 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/index.php:0
+[12-Sep-2016 23:14:26 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jugueton.eventoss' doesn't exist' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/estado.php(56): conexion::ejecutar('UPDATE eventoss...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[13-Sep-2016 05:16:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jugueton.eventoss' doesn't exist' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/estado.php(56): conexion::ejecutar('UPDATE eventoss...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[13-Sep-2016 05:29:56 America/El_Salvador] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/admin/marcas/index.php on line 40
+[13-Sep-2016 05:29:56 America/El_Salvador] PHP Stack trace:
+[13-Sep-2016 05:29:56 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/marcas/index.php:0
+[13-Sep-2016 05:38:29 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%Masferrer%'' at line 1' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/sucs/index.php(42): conexion::obtenerFilas('SELECT md5(id_s...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[13-Sep-2016 05:38:41 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%Jugueton Masferrer%'' at line 1' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/sucs/index.php(42): conexion::obtenerFilas('SELECT md5(id_s...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[13-Sep-2016 05:46:07 America/El_Salvador] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/admin/sucs/index.php on line 41
+[13-Sep-2016 05:46:07 America/El_Salvador] PHP Stack trace:
+[13-Sep-2016 05:46:07 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/sucs/index.php:0
+[13-Sep-2016 10:26:01 America/El_Salvador] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/admin/nots/index.php on line 54
+[13-Sep-2016 10:26:01 America/El_Salvador] PHP Stack trace:
+[13-Sep-2016 10:26:01 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/nots/index.php:0
+[13-Sep-2016 11:32:14 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Niños' for key 'categoria'' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/editar.php(50): conexion::ejecutar('UPDATE categori...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[13-Sep-2016 11:36:06 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categorias' in 'where clause'' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/index.php(36): Database::getRows('SELECT * FROM c...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[13-Sep-2016 17:43:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'esta_activo' in 'field list'' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/crear.php(20): conexion::ejecutar('INSERT INTO eve...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[15-Sep-2016 17:37:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/admin/eventos/modificar.php on line 95
+[15-Sep-2016 18:04:12 UTC] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/admin/cats/_tabla.php on line 13
+[15-Sep-2016 18:04:12 UTC] PHP Stack trace:
+[15-Sep-2016 18:04:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/_tabla.php:0
+[15-Sep-2016 18:04:46 UTC] PHP Fatal error:  Class 'pagina' not found in /home/ubuntu/workspace/admin/cats/_tabla.php on line 13
+[15-Sep-2016 18:04:46 UTC] PHP Stack trace:
+[15-Sep-2016 18:04:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/_tabla.php:0
+[15-Sep-2016 20:38:34 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/ubuntu/workspace/admin/cats/_herr.php on line 6
+[15-Sep-2016 20:38:56 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/ubuntu/workspace/admin/cats/_herr.php on line 6
+[15-Sep-2016 20:39:21 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/ubuntu/workspace/admin/cats/_herr.php on line 6
+[15-Sep-2016 20:39:53 UTC] PHP Fatal error:  Call to undefined method pagina::ejecutarFila() in /home/ubuntu/workspace/admin/cats/_herr.php on line 11
+[15-Sep-2016 20:39:53 UTC] PHP Stack trace:
+[15-Sep-2016 20:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/_herr.php:0
+[15-Sep-2016 20:40:59 UTC] PHP Fatal error:  Call to undefined method pagina::ejecutarFila() in /home/ubuntu/workspace/admin/cats/_herr.php on line 11
+[15-Sep-2016 20:40:59 UTC] PHP Stack trace:
+[15-Sep-2016 20:40:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/cats/_herr.php:0
+[15-Sep-2016 22:39:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Niños' for key 'categoria'' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/editar.php(18): conexion::ejecutar('UPDATE categori...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[15-Sep-2016 22:41:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Niños' for key 'categoria'' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/editar.php(18): conexion::ejecutar('UPDATE categori...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[15-Sep-2016 23:43:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_categoria <>' at line 1' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/cats/_herr.php(18): conexion::obtenerFilas('SELECT * FROM c...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[16-Sep-2016 03:10:10 UTC] PHP Parse error:  syntax error, unexpected 'materialboxed' (T_STRING) in /home/ubuntu/workspace/admin/marcas/_tabla.php on line 39
+[16-Sep-2016 13:50:55 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jugueton.slider' doesn't exist' in /home/ubuntu/workspace/lib/database.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(52): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/Slider/index.php(24): Database::getRows('SELECT * FROM s...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 52
+[18-Sep-2016 18:15:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/admin/reportes/clientes.php on line 25
+[18-Sep-2016 22:09:35 UTC] PHP Fatal error:  Class 'PDF' not found in /home/ubuntu/workspace/admin/reportes/clientes.php on line 16
+[18-Sep-2016 22:09:35 UTC] PHP Stack trace:
+[18-Sep-2016 22:09:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/clientes.php:0
+[18-Sep-2016 22:11:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: No font has been set' in /home/ubuntu/workspace/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ubuntu/workspace/admin/fpdf/fpdf.php(625): FPDF->Error('No font has bee...')
+#1 /home/ubuntu/workspace/admin/reportes/clientes.php(49): FPDF->Cell(50, 10, 'MINECRAFT', 0, 2)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/fpdf/fpdf.php on line 271
+[18-Sep-2016 22:11:42 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: No font has been set' in /home/ubuntu/workspace/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ubuntu/workspace/admin/fpdf/fpdf.php(625): FPDF->Error('No font has bee...')
+#1 /home/ubuntu/workspace/admin/reportes/clientes.php(49): FPDF->Cell(50, 10, 'MINECRAFT', 0, 2)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/fpdf/fpdf.php on line 271
+[18-Sep-2016 22:11:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: No font has been set' in /home/ubuntu/workspace/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ubuntu/workspace/admin/fpdf/fpdf.php(625): FPDF->Error('No font has bee...')
+#1 /home/ubuntu/workspace/admin/reportes/clientes.php(49): FPDF->Cell(50, 10, 'MINECRAFT', 0, 2)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/fpdf/fpdf.php on line 271
+[19-Sep-2016 05:56:27 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[19-Sep-2016 05:56:27 UTC] PHP Stack trace:
+[19-Sep-2016 05:56:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 05:56:27 UTC] PHP   2. conexion::obtenerFilas() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:26
+[19-Sep-2016 05:56:27 UTC] PHP   3. PDOStatement->execute() /home/ubuntu/workspace/admin/lib/pagina.php:53
+[19-Sep-2016 05:56:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1584 Incorrect parameters in the call to stored function 'CAST'' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/reportes/registro_clientes.php(26): conexion::obtenerFilas('SELECT * FROM v...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[19-Sep-2016 06:23:51 UTC] PHP Parse error:  syntax error, unexpected '$month' (T_VARIABLE) in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 21
+[19-Sep-2016 06:23:56 UTC] PHP Parse error:  syntax error, unexpected '$month' (T_VARIABLE) in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 21
+[19-Sep-2016 07:49:06 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 47
+[19-Sep-2016 07:49:06 UTC] PHP Stack trace:
+[19-Sep-2016 07:49:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 07:49:33 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 47
+[19-Sep-2016 07:49:33 UTC] PHP Stack trace:
+[19-Sep-2016 07:49:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 07:49:48 UTC] PHP Fatal error:  Access to undeclared static property: FPDF::$inicio_ in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 47
+[19-Sep-2016 07:49:48 UTC] PHP Stack trace:
+[19-Sep-2016 07:49:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 07:50:00 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 47
+[19-Sep-2016 07:50:00 UTC] PHP Stack trace:
+[19-Sep-2016 07:50:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 07:55:09 UTC] PHP Parse error:  syntax error, unexpected '$fechas' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 5
+[19-Sep-2016 07:55:29 UTC] PHP Fatal error:  Call to undefined method FPDF::Armar() in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 48
+[19-Sep-2016 07:55:29 UTC] PHP Stack trace:
+[19-Sep-2016 07:55:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 07:55:43 UTC] PHP Parse error:  syntax error, unexpected '$fechas' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 5
+[19-Sep-2016 07:55:57 UTC] PHP Fatal error:  Call to undefined method FPDF::Armar() in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 48
+[19-Sep-2016 07:55:57 UTC] PHP Stack trace:
+[19-Sep-2016 07:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 07:56:30 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 48
+[19-Sep-2016 07:56:30 UTC] PHP Stack trace:
+[19-Sep-2016 07:56:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 07:56:39 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 7
+[19-Sep-2016 07:56:39 UTC] PHP Stack trace:
+[19-Sep-2016 07:56:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 07:56:39 UTC] PHP   2. PDF->Armar() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:48
+[19-Sep-2016 07:58:01 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 7
+[19-Sep-2016 07:58:01 UTC] PHP Stack trace:
+[19-Sep-2016 07:58:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 07:58:01 UTC] PHP   2. PDF->Armar() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:48
+[19-Sep-2016 08:00:06 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 14
+[19-Sep-2016 08:00:06 UTC] PHP Stack trace:
+[19-Sep-2016 08:00:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 08:00:06 UTC] PHP   2. FPDF->AddPage() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:52
+[19-Sep-2016 08:00:06 UTC] PHP   3. PDF->Header() /home/ubuntu/workspace/admin/fpdf/fpdf.php:334
+[19-Sep-2016 08:00:17 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 14
+[19-Sep-2016 08:00:17 UTC] PHP Stack trace:
+[19-Sep-2016 08:00:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 08:00:17 UTC] PHP   2. FPDF->AddPage() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:52
+[19-Sep-2016 08:00:17 UTC] PHP   3. PDF->Header() /home/ubuntu/workspace/admin/fpdf/fpdf.php:334
+[19-Sep-2016 08:00:20 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 14
+[19-Sep-2016 08:00:20 UTC] PHP Stack trace:
+[19-Sep-2016 08:00:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 08:00:20 UTC] PHP   2. FPDF->AddPage() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:52
+[19-Sep-2016 08:00:20 UTC] PHP   3. PDF->Header() /home/ubuntu/workspace/admin/fpdf/fpdf.php:334
+[19-Sep-2016 08:00:25 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 14
+[19-Sep-2016 08:00:25 UTC] PHP Stack trace:
+[19-Sep-2016 08:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 08:00:25 UTC] PHP   2. FPDF->AddPage() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:52
+[19-Sep-2016 08:00:25 UTC] PHP   3. PDF->Header() /home/ubuntu/workspace/admin/fpdf/fpdf.php:334
+[19-Sep-2016 08:00:53 UTC] PHP Parse error:  syntax error, unexpected 'fechas' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 10
+[19-Sep-2016 08:01:02 UTC] PHP Fatal error:  Cannot re-assign $this in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 10
+[19-Sep-2016 08:01:18 UTC] PHP Parse error:  syntax error, unexpected 'fechas' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 10
+[19-Sep-2016 08:02:31 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 10
+[19-Sep-2016 08:04:51 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 14
+[19-Sep-2016 08:12:36 UTC] PHP Parse error:  syntax error, unexpected 'continue' (T_CONTINUE) in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 58
+[19-Sep-2016 08:18:17 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 68
+[19-Sep-2016 08:18:17 UTC] PHP Stack trace:
+[19-Sep-2016 08:18:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 08:19:05 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 68
+[19-Sep-2016 08:19:05 UTC] PHP Stack trace:
+[19-Sep-2016 08:19:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 08:35:41 UTC] PHP Fatal error:  Call to a member function GetStringWidth() on a non-object in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 95
+[19-Sep-2016 08:35:41 UTC] PHP Stack trace:
+[19-Sep-2016 08:35:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 08:35:41 UTC] PHP   2. textero() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:67
+[19-Sep-2016 08:36:01 UTC] PHP Fatal error:  Call to a member function GetStringWidth() on a non-object in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 95
+[19-Sep-2016 08:36:01 UTC] PHP Stack trace:
+[19-Sep-2016 08:36:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[19-Sep-2016 08:36:01 UTC] PHP   2. textero() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:67
+[19-Sep-2016 08:45:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 65
+[19-Sep-2016 08:58:42 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 85
+[19-Sep-2016 08:58:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 91
+[20-Sep-2016 06:20:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/reportes/productos_escasos.php(25): conexion::obtenerFilas('SELECT codigo, ...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[20-Sep-2016 19:16:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/cats/crear.php(12): conexion::ejecutar('INSERT INTO cat...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[21-Sep-2016 05:06:38 UTC] PHP Warning:  Missing argument 2 for acomodar(), called in /home/ubuntu/workspace/admin/reportes/productos_escasos.php on line 72 and defined in /home/ubuntu/workspace/admin/reportes/productos_escasos.php on line 79
+[21-Sep-2016 05:06:38 UTC] PHP Stack trace:
+[21-Sep-2016 05:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:0
+[21-Sep-2016 05:06:38 UTC] PHP   2. acomodar() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:72
+[21-Sep-2016 05:06:38 UTC] PHP Fatal error:  Call to a member function GetStringWidth() on a non-object in /home/ubuntu/workspace/admin/reportes/productos_escasos.php on line 80
+[21-Sep-2016 05:06:38 UTC] PHP Stack trace:
+[21-Sep-2016 05:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:0
+[21-Sep-2016 05:06:38 UTC] PHP   2. acomodar() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:72
+[21-Sep-2016 05:07:01 UTC] PHP Warning:  utf8_decode() expects exactly 1 parameter, 2 given in /home/ubuntu/workspace/admin/reportes/productos_escasos.php on line 72
+[21-Sep-2016 05:07:01 UTC] PHP Stack trace:
+[21-Sep-2016 05:07:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:0
+[21-Sep-2016 05:07:01 UTC] PHP   2. utf8_decode() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:72
+[21-Sep-2016 05:07:01 UTC] PHP Warning:  Missing argument 2 for acomodar(), called in /home/ubuntu/workspace/admin/reportes/productos_escasos.php on line 72 and defined in /home/ubuntu/workspace/admin/reportes/productos_escasos.php on line 79
+[21-Sep-2016 05:07:01 UTC] PHP Stack trace:
+[21-Sep-2016 05:07:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:0
+[21-Sep-2016 05:07:01 UTC] PHP   2. acomodar() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:72
+[21-Sep-2016 05:07:01 UTC] PHP Fatal error:  Call to a member function GetStringWidth() on a non-object in /home/ubuntu/workspace/admin/reportes/productos_escasos.php on line 80
+[21-Sep-2016 05:07:01 UTC] PHP Stack trace:
+[21-Sep-2016 05:07:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:0
+[21-Sep-2016 05:07:01 UTC] PHP   2. acomodar() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:72
+[21-Sep-2016 05:07:16 UTC] PHP Fatal error:  Call to a member function GetStringWidth() on a non-object in /home/ubuntu/workspace/admin/reportes/productos_escasos.php on line 80
+[21-Sep-2016 05:07:16 UTC] PHP Stack trace:
+[21-Sep-2016 05:07:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:0
+[21-Sep-2016 05:07:16 UTC] PHP   2. acomodar() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:72
+[21-Sep-2016 05:08:04 UTC] PHP Fatal error:  Call to a member function GetStringWidth() on a non-object in /home/ubuntu/workspace/admin/reportes/productos_escasos.php on line 80
+[21-Sep-2016 05:08:04 UTC] PHP Stack trace:
+[21-Sep-2016 05:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:0
+[21-Sep-2016 05:08:04 UTC] PHP   2. acomodar() /home/ubuntu/workspace/admin/reportes/productos_escasos.php:72
+[21-Sep-2016 15:27:46 UTC] PHP Parse error:  syntax error, unexpected '$sistemas' (T_VARIABLE) in /home/ubuntu/workspace/admin/reportes/analisis_ux.php on line 47
+[21-Sep-2016 15:28:47 UTC] PHP Parse error:  syntax error, unexpected '$sistemas' (T_VARIABLE) in /home/ubuntu/workspace/admin/reportes/analisis_ux.php on line 47
+[21-Sep-2016 15:32:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:34:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:35:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:37:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:39:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:43:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:46:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:47:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:47:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:50:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:50:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:52:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:52:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso4.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:53:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_usuario' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso4.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:53:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:55:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:55:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_empleado' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso4.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:56:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:56:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'crecion_cuenta_empleado' in 'where clause'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso4.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:57:28 UTC] PHP Fatal error:  Call to a member function Cell() on a non-object in /home/ubuntu/workspace/admin/reportes/analisis_ux.php on line 120
+[21-Sep-2016 15:57:28 UTC] PHP Stack trace:
+[21-Sep-2016 15:57:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:0
+[21-Sep-2016 15:58:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:58:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'crecion_cuenta_empleado' in 'where clause'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso4.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:58:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 15:58:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sesion' in 'field list'' in /home/ubuntu/workspace/lib/database.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/lib/database.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/pags/proceso3.php(6): Database::getRow('SELECT COUNT(id...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/lib/database.php on line 44
+[21-Sep-2016 16:08:33 UTC] PHP Parse error:  syntax error, unexpected '^' in /home/ubuntu/workspace/admin/reportes/analisis_ux.php on line 137
+[23-Sep-2016 03:22:07 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/ubuntu/workspace/admin/lib/pagina.php on line 245
+[23-Sep-2016 03:22:08 UTC] PHP Stack trace:
+[23-Sep-2016 03:22:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:0
+[23-Sep-2016 03:22:08 UTC] PHP   2. pagina::validarForm() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:25
+[23-Sep-2016 03:22:08 UTC] PHP   3. trim() /home/ubuntu/workspace/admin/lib/pagina.php:245
+[23-Sep-2016 03:22:08 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/ubuntu/workspace/admin/lib/pagina.php on line 245
+[23-Sep-2016 03:22:08 UTC] PHP Stack trace:
+[23-Sep-2016 03:22:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:0
+[23-Sep-2016 03:22:08 UTC] PHP   2. pagina::validarForm() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:25
+[23-Sep-2016 03:22:08 UTC] PHP   3. trim() /home/ubuntu/workspace/admin/lib/pagina.php:245
+[23-Sep-2016 03:41:01 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/ubuntu/workspace/admin/reportes/analisis_ux.php on line 26
+[23-Sep-2016 03:41:01 UTC] PHP Stack trace:
+[23-Sep-2016 03:41:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:0
+[23-Sep-2016 03:41:01 UTC] PHP   2. array_map() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:26
+[23-Sep-2016 03:41:01 UTC] PHP   3. trim() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:26
+[23-Sep-2016 03:41:01 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/ubuntu/workspace/admin/reportes/analisis_ux.php on line 26
+[23-Sep-2016 03:41:01 UTC] PHP Stack trace:
+[23-Sep-2016 03:41:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:0
+[23-Sep-2016 03:41:01 UTC] PHP   2. array_map() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:26
+[23-Sep-2016 03:41:01 UTC] PHP   3. trim() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:26
+[23-Sep-2016 04:01:26 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/ubuntu/workspace/admin/lib/pagina.php on line 245
+[23-Sep-2016 04:01:26 UTC] PHP Stack trace:
+[23-Sep-2016 04:01:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:0
+[23-Sep-2016 04:01:26 UTC] PHP   2. pagina::validarForm() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:66
+[23-Sep-2016 04:01:26 UTC] PHP   3. trim() /home/ubuntu/workspace/admin/lib/pagina.php:245
+[23-Sep-2016 04:01:26 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/ubuntu/workspace/admin/lib/pagina.php on line 245
+[23-Sep-2016 04:01:26 UTC] PHP Stack trace:
+[23-Sep-2016 04:01:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:0
+[23-Sep-2016 04:01:26 UTC] PHP   2. pagina::validarForm() /home/ubuntu/workspace/admin/reportes/analisis_ux.php:66
+[23-Sep-2016 04:01:26 UTC] PHP   3. trim() /home/ubuntu/workspace/admin/lib/pagina.php:245
+[24-Sep-2016 03:58:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/claf/crear.php(15): conexion::ejecutar('INSERT INTO cla...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[24-Sep-2016 16:05:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/marcas/crear.php(17): conexion::ejecutar('INSERT INTO mar...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[24-Sep-2016 17:21:25 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/admin/cats/editar.php on line 14
+[24-Sep-2016 17:45:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'evento' in 'where clause'' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/_tabla.php(30): conexion::obtenerFilas('SELECT * FROM e...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[24-Sep-2016 18:00:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'evento' in 'where clause'' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/_herr.php(18): conexion::obtenerFilas('SELECT * FROM e...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[24-Sep-2016 18:00:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'evento' in 'where clause'' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/_herr.php(18): conexion::obtenerFilas('SELECT * FROM e...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[24-Sep-2016 18:00:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'evento' in 'where clause'' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/_herr.php(18): conexion::obtenerFilas('SELECT * FROM e...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[24-Sep-2016 18:00:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'evento' in 'where clause'' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/_herr.php(18): conexion::obtenerFilas('SELECT * FROM e...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[24-Sep-2016 18:00:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'evento' in 'where clause'' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/_herr.php(18): conexion::obtenerFilas('SELECT * FROM e...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[24-Sep-2016 18:00:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'evento' in 'where clause'' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/_herr.php(18): conexion::obtenerFilas('SELECT * FROM e...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[24-Sep-2016 18:07:32 UTC] PHP Parse error:  syntax error, unexpected '$fecha_fin' (T_VARIABLE) in /home/ubuntu/workspace/admin/eventos/crear.php on line 10
+[24-Sep-2016 19:14:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'evento' in 'where clause'' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/crear.php(28): conexion::obtenerFilas('SELECT * FROM e...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[24-Sep-2016 13:25:03 America/El_Salvador] PHP Fatal error:  Class 'Page' not found in /home/ubuntu/workspace/admin/usuarios/profile.php on line 111
+[24-Sep-2016 13:25:03 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 13:25:03 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:26:52 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/admin/eventos/crear.php on line 6
+[24-Sep-2016 19:26:52 UTC] PHP Stack trace:
+[24-Sep-2016 19:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 19:26:52 UTC] PHP   2. validarFI() /home/ubuntu/workspace/admin/eventos/crear.php:31
+[24-Sep-2016 19:26:52 UTC] PHP   3. date() /home/ubuntu/workspace/admin/eventos/crear.php:6
+[24-Sep-2016 19:26:52 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/admin/eventos/crear.php on line 11
+[24-Sep-2016 19:26:52 UTC] PHP Stack trace:
+[24-Sep-2016 19:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 19:26:52 UTC] PHP   2. validarFF() /home/ubuntu/workspace/admin/eventos/crear.php:32
+[24-Sep-2016 19:26:52 UTC] PHP   3. date() /home/ubuntu/workspace/admin/eventos/crear.php:11
+[24-Sep-2016 19:26:52 UTC] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 39
+[24-Sep-2016 19:26:52 UTC] PHP Stack trace:
+[24-Sep-2016 19:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 19:26:52 UTC] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:39
+[24-Sep-2016 19:26:52 UTC] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 40
+[24-Sep-2016 19:26:52 UTC] PHP Stack trace:
+[24-Sep-2016 19:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 19:26:52 UTC] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:40
+[24-Sep-2016 19:26:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/crear.php(43): conexion::ejecutar('INSERT INTO eve...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[24-Sep-2016 19:35:11 UTC] PHP Fatal error:  Class 'Pagina' not found in /home/ubuntu/workspace/admin/usuarios/profile.php on line 5
+[24-Sep-2016 19:35:11 UTC] PHP Stack trace:
+[24-Sep-2016 19:35:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:35:32 UTC] PHP Warning:  require(../../../lib/pagina.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/usuarios/profile.php on line 2
+[24-Sep-2016 19:35:32 UTC] PHP Stack trace:
+[24-Sep-2016 19:35:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:35:32 UTC] PHP Fatal error:  require(): Failed opening required '../../../lib/pagina.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/admin/usuarios/profile.php on line 2
+[24-Sep-2016 19:35:32 UTC] PHP Stack trace:
+[24-Sep-2016 19:35:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:36:14 UTC] PHP Warning:  require(../../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/usuarios/profile.php on line 2
+[24-Sep-2016 19:36:14 UTC] PHP Stack trace:
+[24-Sep-2016 19:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:36:14 UTC] PHP Fatal error:  require(): Failed opening required '../../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/admin/usuarios/profile.php on line 2
+[24-Sep-2016 19:36:14 UTC] PHP Stack trace:
+[24-Sep-2016 19:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:36:49 UTC] PHP Warning:  require(../../../public/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/usuarios/profile.php on line 2
+[24-Sep-2016 19:36:49 UTC] PHP Stack trace:
+[24-Sep-2016 19:36:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:36:49 UTC] PHP Fatal error:  require(): Failed opening required '../../../public/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/admin/usuarios/profile.php on line 2
+[24-Sep-2016 19:36:49 UTC] PHP Stack trace:
+[24-Sep-2016 19:36:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:36:51 UTC] PHP Warning:  require(../../../public/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/usuarios/profile.php on line 2
+[24-Sep-2016 19:36:51 UTC] PHP Stack trace:
+[24-Sep-2016 19:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:36:51 UTC] PHP Fatal error:  require(): Failed opening required '../../../public/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/admin/usuarios/profile.php on line 2
+[24-Sep-2016 19:36:51 UTC] PHP Stack trace:
+[24-Sep-2016 19:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:37:06 UTC] PHP Fatal error:  Cannot redeclare class Database in /home/ubuntu/workspace/lib/database.php on line 2
+[24-Sep-2016 19:37:06 UTC] PHP Stack trace:
+[24-Sep-2016 19:37:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:37:20 UTC] PHP Fatal error:  Cannot redeclare class Validator in /home/ubuntu/workspace/lib/validator.php on line 2
+[24-Sep-2016 19:37:20 UTC] PHP Stack trace:
+[24-Sep-2016 19:37:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:37:33 UTC] PHP Fatal error:  Class 'Pagina' not found in /home/ubuntu/workspace/admin/usuarios/profile.php on line 4
+[24-Sep-2016 19:37:33 UTC] PHP Stack trace:
+[24-Sep-2016 19:37:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:39:47 UTC] PHP Fatal error:  Class 'Pagina' not found in /home/ubuntu/workspace/admin/usuarios/profile.php on line 4
+[24-Sep-2016 19:39:47 UTC] PHP Stack trace:
+[24-Sep-2016 19:39:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:39:59 UTC] PHP Fatal error:  Class 'Page' not found in /home/ubuntu/workspace/admin/usuarios/profile.php on line 4
+[24-Sep-2016 19:39:59 UTC] PHP Stack trace:
+[24-Sep-2016 19:39:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 13:40:14 America/El_Salvador] PHP Fatal error:  Class 'Page' not found in /home/ubuntu/workspace/admin/usuarios/profile.php on line 111
+[24-Sep-2016 13:40:14 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 13:40:14 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/usuarios/profile.php:0
+[24-Sep-2016 19:41:53 UTC] PHP Warning:  strtotime() expects at most 2 parameters, 3 given in /home/ubuntu/workspace/admin/eventos/crear.php on line 5
+[24-Sep-2016 19:41:53 UTC] PHP Stack trace:
+[24-Sep-2016 19:41:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 19:41:53 UTC] PHP   2. validarFI() /home/ubuntu/workspace/admin/eventos/crear.php:35
+[24-Sep-2016 19:41:53 UTC] PHP   3. strtotime() /home/ubuntu/workspace/admin/eventos/crear.php:5
+[24-Sep-2016 19:41:53 UTC] PHP Warning:  strtotime() expects at most 2 parameters, 3 given in /home/ubuntu/workspace/admin/eventos/crear.php on line 12
+[24-Sep-2016 19:41:53 UTC] PHP Stack trace:
+[24-Sep-2016 19:41:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 19:41:53 UTC] PHP   2. validarFF() /home/ubuntu/workspace/admin/eventos/crear.php:36
+[24-Sep-2016 19:41:53 UTC] PHP   3. strtotime() /home/ubuntu/workspace/admin/eventos/crear.php:12
+[24-Sep-2016 18:00:13 America/El_Salvador] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 41
+[24-Sep-2016 18:00:13 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 18:00:13 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 18:00:13 America/El_Salvador] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:41
+[24-Sep-2016 18:00:13 America/El_Salvador] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 42
+[24-Sep-2016 18:00:13 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 18:00:13 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 18:00:13 America/El_Salvador] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:42
+[24-Sep-2016 18:00:13 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/crear.php(45): conexion::ejecutar('INSERT INTO eve...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[24-Sep-2016 18:01:45 America/El_Salvador] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 41
+[24-Sep-2016 18:01:45 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 18:01:45 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 18:01:45 America/El_Salvador] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:41
+[24-Sep-2016 18:01:45 America/El_Salvador] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 42
+[24-Sep-2016 18:01:45 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 18:01:45 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 18:01:45 America/El_Salvador] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:42
+[24-Sep-2016 18:01:45 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/crear.php(45): conexion::ejecutar('INSERT INTO eve...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[24-Sep-2016 18:01:59 America/El_Salvador] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 41
+[24-Sep-2016 18:01:59 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 18:01:59 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 18:01:59 America/El_Salvador] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:41
+[24-Sep-2016 18:01:59 America/El_Salvador] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 42
+[24-Sep-2016 18:01:59 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 18:01:59 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 18:01:59 America/El_Salvador] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:42
+[24-Sep-2016 18:01:59 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/crear.php(45): conexion::ejecutar('INSERT INTO eve...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[24-Sep-2016 18:02:58 America/El_Salvador] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 43
+[24-Sep-2016 18:02:58 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 18:02:58 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 18:02:58 America/El_Salvador] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:43
+[24-Sep-2016 18:02:58 America/El_Salvador] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 44
+[24-Sep-2016 18:02:58 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 18:02:58 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 18:02:58 America/El_Salvador] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:44
+[24-Sep-2016 18:02:58 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/crear.php(47): conexion::ejecutar('INSERT INTO eve...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[24-Sep-2016 18:03:24 America/El_Salvador] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 44
+[24-Sep-2016 18:03:24 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 18:03:24 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 18:03:24 America/El_Salvador] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:44
+[24-Sep-2016 18:03:24 America/El_Salvador] PHP Warning:  date() expects parameter 2 to be long, array given in /home/ubuntu/workspace/admin/eventos/crear.php on line 45
+[24-Sep-2016 18:03:24 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 18:03:24 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/eventos/crear.php:0
+[24-Sep-2016 18:03:24 America/El_Salvador] PHP   2. date() /home/ubuntu/workspace/admin/eventos/crear.php:45
+[24-Sep-2016 18:03:24 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/crear.php(48): conexion::ejecutar('INSERT INTO eve...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[24-Sep-2016 18:03:50 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/crear.php(45): conexion::ejecutar('INSERT INTO eve...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[24-Sep-2016 18:13:49 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET nombre_evento = 'Juegos Variozs', detalle_evento = 'm', lugar = 'Perejil', f' at line 1' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/editar.php(48): conexion::ejecutar('UPDATE SET nomb...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[24-Sep-2016 18:14:25 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET nombre_evento = 'Juegos Variozs', detalle_evento = 'm', lugar = 'Perejil', f' at line 1' in /home/ubuntu/workspace/admin/lib/pagina.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/eventos/editar.php(48): conexion::ejecutar('UPDATE SET nomb...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 29
+[25-Sep-2016 00:26:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_evento' in 'order clause'' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/nots/_tabla.php(31): conexion::obtenerFilas('SELECT * FROM n...', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[25-Sep-2016 00:30:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/nots/_tabla.php(32): conexion::obtenerFilas('SELECT * FROM n...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 53
+[25-Sep-2016 09:55:14 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(36): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/nots/crear.php(33): conexion::ejecutar('INSERT INTO eve...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 36
+[25-Sep-2016 10:30:45 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'imagen_pri' cannot be null' in /home/ubuntu/workspace/admin/lib/pagina.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(36): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/nots/crear.php(53): conexion::ejecutar('INSERT INTO not...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 36
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP Warning:  func_get_arg() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/admin/nots/crear.php on line 12
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/nots/crear.php:0
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP   2. validarImg() /home/ubuntu/workspace/admin/nots/crear.php:38
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP   3. func_get_arg() /home/ubuntu/workspace/admin/nots/crear.php:12
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP Warning:  func_get_arg() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/admin/nots/crear.php on line 12
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/nots/crear.php:0
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP   2. validarImg() /home/ubuntu/workspace/admin/nots/crear.php:39
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP   3. func_get_arg() /home/ubuntu/workspace/admin/nots/crear.php:12
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP Warning:  func_get_arg() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/admin/nots/crear.php on line 12
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/nots/crear.php:0
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP   2. validarImg() /home/ubuntu/workspace/admin/nots/crear.php:40
+[25-Sep-2016 10:33:16 America/El_Salvador] PHP   3. func_get_arg() /home/ubuntu/workspace/admin/nots/crear.php:12
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP Warning:  func_get_arg():  Argument 3 not passed to function in /home/ubuntu/workspace/admin/nots/crear.php on line 12
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/nots/crear.php:0
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP   2. validarImg() /home/ubuntu/workspace/admin/nots/crear.php:38
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP   3. func_get_arg() /home/ubuntu/workspace/admin/nots/crear.php:12
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP Warning:  func_get_arg():  Argument 3 not passed to function in /home/ubuntu/workspace/admin/nots/crear.php on line 12
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/nots/crear.php:0
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP   2. validarImg() /home/ubuntu/workspace/admin/nots/crear.php:39
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP   3. func_get_arg() /home/ubuntu/workspace/admin/nots/crear.php:12
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP Warning:  func_get_arg():  Argument 3 not passed to function in /home/ubuntu/workspace/admin/nots/crear.php on line 12
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/nots/crear.php:0
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP   2. validarImg() /home/ubuntu/workspace/admin/nots/crear.php:40
+[25-Sep-2016 10:33:45 America/El_Salvador] PHP   3. func_get_arg() /home/ubuntu/workspace/admin/nots/crear.php:12
+[25-Sep-2016 10:36:39 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'imagen_pri' cannot be null' in /home/ubuntu/workspace/admin/lib/pagina.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(36): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/nots/crear.php(55): conexion::ejecutar('INSERT INTO not...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 36
+[25-Sep-2016 10:37:15 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'imagen_pri' cannot be null' in /home/ubuntu/workspace/admin/lib/pagina.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(36): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/nots/crear.php(55): conexion::ejecutar('INSERT INTO not...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 36
+[25-Sep-2016 10:37:50 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'imagen_pri' cannot be null' in /home/ubuntu/workspace/admin/lib/pagina.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(36): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/nots/crear.php(55): conexion::ejecutar('INSERT INTO not...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 36
+[25-Sep-2016 17:07:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/admin/nots/editar.php on line 134
+[25-Sep-2016 17:07:33 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/admin/nots/editar.php on line 134
+[25-Sep-2016 17:07:41 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/ubuntu/workspace/admin/nots/editar.php on line 134
+[25-Sep-2016 17:15:25 UTC] PHP Parse error:  syntax error, unexpected '$var8' (T_VARIABLE), expecting ')' in /home/ubuntu/workspace/admin/nots/editar.php on line 59
+[25-Sep-2016 11:19:51 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/admin/lib/pagina.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(36): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/nots/editar.php(60): conexion::ejecutar('UPDATE noticias...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 36
+[25-Sep-2016 11:27:52 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'imagen_pri' cannot be null' in /home/ubuntu/workspace/admin/lib/pagina.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(36): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/admin/nots/crear.php(55): conexion::ejecutar('INSERT INTO not...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 36
+[26-Sep-2016 01:30:00 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ubuntu/workspace/admin/sucs/estado.php on line 36
+[26-Sep-2016 04:50:20 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/admin/reportes/analisis_ux.php on line 120
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP Warning:  Missing argument 1 for pagina::armarCombo(), called in /home/ubuntu/workspace/admin/reportes/index.php on line 161 and defined in /home/ubuntu/workspace/admin/lib/pagina.php on line 228
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/index.php:0
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP   2. pagina::armarCombo() /home/ubuntu/workspace/admin/reportes/index.php:161
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP Warning:  Missing argument 2 for pagina::armarCombo(), called in /home/ubuntu/workspace/admin/reportes/index.php on line 161 and defined in /home/ubuntu/workspace/admin/lib/pagina.php on line 228
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/index.php:0
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP   2. pagina::armarCombo() /home/ubuntu/workspace/admin/reportes/index.php:161
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP Warning:  Missing argument 3 for pagina::armarCombo(), called in /home/ubuntu/workspace/admin/reportes/index.php on line 161 and defined in /home/ubuntu/workspace/admin/lib/pagina.php on line 228
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/index.php:0
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP   2. pagina::armarCombo() /home/ubuntu/workspace/admin/reportes/index.php:161
+[25-Sep-2016 23:39:41 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/admin/lib/pagina.php:59
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(59): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/lib/pagina.php(229): conexion::obtenerFilas(NULL, NULL)
+#2 /home/ubuntu/workspace/admin/reportes/index.php(161): pagina::armarCombo()
+#3 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 59
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP Warning:  Missing argument 1 for pagina::armarCombo(), called in /home/ubuntu/workspace/admin/reportes/index.php on line 161 and defined in /home/ubuntu/workspace/admin/lib/pagina.php on line 228
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/index.php:0
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP   2. pagina::armarCombo() /home/ubuntu/workspace/admin/reportes/index.php:161
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP Warning:  Missing argument 2 for pagina::armarCombo(), called in /home/ubuntu/workspace/admin/reportes/index.php on line 161 and defined in /home/ubuntu/workspace/admin/lib/pagina.php on line 228
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/index.php:0
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP   2. pagina::armarCombo() /home/ubuntu/workspace/admin/reportes/index.php:161
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP Warning:  Missing argument 3 for pagina::armarCombo(), called in /home/ubuntu/workspace/admin/reportes/index.php on line 161 and defined in /home/ubuntu/workspace/admin/lib/pagina.php on line 228
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/index.php:0
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP   2. pagina::armarCombo() /home/ubuntu/workspace/admin/reportes/index.php:161
+[25-Sep-2016 23:40:02 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/admin/lib/pagina.php:59
+Stack trace:
+#0 /home/ubuntu/workspace/admin/lib/pagina.php(59): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/admin/lib/pagina.php(229): conexion::obtenerFilas(NULL, NULL)
+#2 /home/ubuntu/workspace/admin/reportes/index.php(161): pagina::armarCombo()
+#3 {main}
+  thrown in /home/ubuntu/workspace/admin/lib/pagina.php on line 59
+[26-Sep-2016 05:55:28 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 32
+[26-Sep-2016 06:03:46 UTC] PHP Parse error:  syntax error, unexpected '$valores' (T_VARIABLE) in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 30
+[26-Sep-2016 06:28:46 UTC] PHP Fatal error:  Cannot access self:: when no class scope is active in /home/ubuntu/workspace/admin/reportes/_productos.php on line 3
+[26-Sep-2016 06:28:46 UTC] PHP Stack trace:
+[26-Sep-2016 06:28:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/_productos.php:0
+[26-Sep-2016 06:28:49 UTC] PHP Fatal error:  Cannot access self:: when no class scope is active in /home/ubuntu/workspace/admin/reportes/_productos.php on line 3
+[26-Sep-2016 06:28:49 UTC] PHP Stack trace:
+[26-Sep-2016 06:28:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/_productos.php:0
+[26-Sep-2016 06:29:45 UTC] PHP Fatal error:  Cannot access self:: when no class scope is active in /home/ubuntu/workspace/admin/reportes/_productos.php on line 3
+[26-Sep-2016 06:29:45 UTC] PHP Stack trace:
+[26-Sep-2016 06:29:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/_productos.php:0
+[26-Sep-2016 06:57:21 UTC] PHP Fatal error:  Call to a member function Cell() on a non-object in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 19
+[26-Sep-2016 06:57:21 UTC] PHP Stack trace:
+[26-Sep-2016 06:57:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[26-Sep-2016 06:57:21 UTC] PHP   2. FPDF->Output() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:121
+[26-Sep-2016 06:57:21 UTC] PHP   3. FPDF->Close() /home/ubuntu/workspace/admin/fpdf/fpdf.php:983
+[26-Sep-2016 06:57:21 UTC] PHP   4. PDF->Footer() /home/ubuntu/workspace/admin/fpdf/fpdf.php:283
+[26-Sep-2016 06:57:59 UTC] PHP Fatal error:  Call to a member function Cell() on a non-object in /home/ubuntu/workspace/admin/reportes/registro_clientes.php on line 19
+[26-Sep-2016 06:57:59 UTC] PHP Stack trace:
+[26-Sep-2016 06:57:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:0
+[26-Sep-2016 06:57:59 UTC] PHP   2. FPDF->Output() /home/ubuntu/workspace/admin/reportes/registro_clientes.php:121
+[26-Sep-2016 06:57:59 UTC] PHP   3. FPDF->Close() /home/ubuntu/workspace/admin/fpdf/fpdf.php:983
+[26-Sep-2016 06:57:59 UTC] PHP   4. PDF->Footer() /home/ubuntu/workspace/admin/fpdf/fpdf.php:283
+[26-Sep-2016 07:09:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/admin/reportes/comentarios.php on line 80
+[26-Sep-2016 07:12:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/ubuntu/workspace/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ubuntu/workspace/admin/fpdf/fpdf.php(1063): FPDF->Error('Some data has a...')
+#1 /home/ubuntu/workspace/admin/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/ubuntu/workspace/admin/reportes/comentarios.php(85): FPDF->Output()
+#3 {main}
+  thrown in /home/ubuntu/workspace/admin/fpdf/fpdf.php on line 271
+[26-Sep-2016 07:12:29 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/ubuntu/workspace/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ubuntu/workspace/admin/fpdf/fpdf.php(1063): FPDF->Error('Some data has a...')
+#1 /home/ubuntu/workspace/admin/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/ubuntu/workspace/admin/reportes/comentarios.php(85): FPDF->Output()
+#3 {main}
+  thrown in /home/ubuntu/workspace/admin/fpdf/fpdf.php on line 271
+[26-Sep-2016 07:16:53 UTC] PHP Parse error:  syntax error, unexpected '$pdf' (T_VARIABLE) in /home/ubuntu/workspace/admin/reportes/comentarios.php on line 79
+[26-Sep-2016 07:17:02 UTC] PHP Parse error:  syntax error, unexpected '$pdf' (T_VARIABLE) in /home/ubuntu/workspace/admin/reportes/comentarios.php on line 79
+[27-Sep-2016 03:02:22 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/admin/prod/prevalidar.php on line 20
+[27-Sep-2016 03:02:22 UTC] PHP Stack trace:
+[27-Sep-2016 03:02:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/prevalidar.php:0
+[27-Sep-2016 03:02:22 UTC] PHP   2. explode() /home/ubuntu/workspace/admin/prod/prevalidar.php:20
+[27-Sep-2016 03:02:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/ubuntu/workspace/admin/prod/prevalidar.php on line 21
+[27-Sep-2016 03:02:22 UTC] PHP Stack trace:
+[27-Sep-2016 03:02:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/prevalidar.php:0
+[27-Sep-2016 03:02:22 UTC] PHP   2. array_map() /home/ubuntu/workspace/admin/prod/prevalidar.php:21
+[27-Sep-2016 03:02:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/admin/prod/prevalidar.php on line 25
+[27-Sep-2016 03:02:22 UTC] PHP Stack trace:
+[27-Sep-2016 03:02:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/prevalidar.php:0
+[27-Sep-2016 03:27:13 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/admin/prod/prevalidar.php on line 21
+[27-Sep-2016 04:28:52 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/ubuntu/workspace/admin/prod/prevalidar.php on line 62
+[27-Sep-2016 04:28:52 UTC] PHP Stack trace:
+[27-Sep-2016 04:28:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/prevalidar.php:0
+[27-Sep-2016 04:28:52 UTC] PHP   2. preg_match() /home/ubuntu/workspace/admin/prod/prevalidar.php:62
+[27-Sep-2016 04:28:52 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/ubuntu/workspace/admin/prod/prevalidar.php on line 62
+[27-Sep-2016 04:28:52 UTC] PHP Stack trace:
+[27-Sep-2016 04:28:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/prevalidar.php:0
+[27-Sep-2016 04:28:52 UTC] PHP   2. preg_match() /home/ubuntu/workspace/admin/prod/prevalidar.php:62
+[27-Sep-2016 04:28:52 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/ubuntu/workspace/admin/prod/prevalidar.php on line 62
+[27-Sep-2016 04:28:52 UTC] PHP Stack trace:
+[27-Sep-2016 04:28:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/prod/prevalidar.php:0
+[27-Sep-2016 04:28:52 UTC] PHP   2. preg_match() /home/ubuntu/workspace/admin/prod/prevalidar.php:62
