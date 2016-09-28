@@ -1,0 +1,17 @@
+[18-Sep-2016 03:17:56 UTC] PHP Warning:  fopen(logo_pb.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/fpdf/fpdf.php on line 1259
+[18-Sep-2016 03:17:56 UTC] PHP Stack trace:
+[18-Sep-2016 03:17:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/fpdf/tutorial/tuto2.php:0
+[18-Sep-2016 03:17:56 UTC] PHP   2. FPDF->AddPage() /home/ubuntu/workspace/admin/fpdf/tutorial/tuto2.php:36
+[18-Sep-2016 03:17:56 UTC] PHP   3. PDF->Header() /home/ubuntu/workspace/admin/fpdf/fpdf.php:334
+[18-Sep-2016 03:17:56 UTC] PHP   4. FPDF->Image() /home/ubuntu/workspace/admin/fpdf/tutorial/tuto2.php:10
+[18-Sep-2016 03:17:56 UTC] PHP   5. FPDF->_parsepng() /home/ubuntu/workspace/admin/fpdf/fpdf.php:885
+[18-Sep-2016 03:17:56 UTC] PHP   6. fopen() /home/ubuntu/workspace/admin/fpdf/fpdf.php:1259
+[18-Sep-2016 03:17:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logo_pb.png' in /home/ubuntu/workspace/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ubuntu/workspace/admin/fpdf/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/ubuntu/workspace/admin/fpdf/fpdf.php(885): FPDF->_parsepng('logo_pb.png')
+#2 /home/ubuntu/workspace/admin/fpdf/tutorial/tuto2.php(10): FPDF->Image('logo_pb.png', 10, 8, 33)
+#3 /home/ubuntu/workspace/admin/fpdf/fpdf.php(334): PDF->Header()
+#4 /home/ubuntu/workspace/admin/fpdf/tutorial/tuto2.php(36): FPDF->AddPage()
+#5 {main}
+  thrown in /home/ubuntu/workspace/admin/fpdf/fpdf.php on line 271
