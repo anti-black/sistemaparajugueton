@@ -1,0 +1,590 @@
+[07-Sep-2016 15:39:54 UTC] PHP Warning:  require(../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/principal/index.php on line 2
+[07-Sep-2016 15:39:54 UTC] PHP Stack trace:
+[07-Sep-2016 15:39:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/index.php:0
+[07-Sep-2016 15:39:54 UTC] PHP Fatal error:  require(): Failed opening required '../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/principal/index.php on line 2
+[07-Sep-2016 15:39:54 UTC] PHP Stack trace:
+[07-Sep-2016 15:39:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/index.php:0
+[07-Sep-2016 15:49:35 UTC] PHP Warning:  require(../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/principal/index.php on line 2
+[07-Sep-2016 15:49:35 UTC] PHP Stack trace:
+[07-Sep-2016 15:49:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/index.php:0
+[07-Sep-2016 15:49:35 UTC] PHP Fatal error:  require(): Failed opening required '../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/principal/index.php on line 2
+[07-Sep-2016 15:49:35 UTC] PHP Stack trace:
+[07-Sep-2016 15:49:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/index.php:0
+[07-Sep-2016 16:05:34 UTC] PHP Warning:  require(../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/principal/logout.php on line 2
+[07-Sep-2016 16:05:34 UTC] PHP Stack trace:
+[07-Sep-2016 16:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/logout.php:0
+[07-Sep-2016 16:05:34 UTC] PHP Fatal error:  require(): Failed opening required '../database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/principal/logout.php on line 2
+[07-Sep-2016 16:05:34 UTC] PHP Stack trace:
+[07-Sep-2016 16:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/logout.php:0
+[10-Sep-2016 11:38:01 America/El_Salvador] PHP Fatal error:  Call to undefined function categorias() in /home/ubuntu/workspace/public/page1.php on line 106
+[10-Sep-2016 11:38:01 America/El_Salvador] PHP Stack trace:
+[10-Sep-2016 11:38:01 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/principal/index.php:0
+[10-Sep-2016 11:38:01 America/El_Salvador] PHP   2. Page::header() /home/ubuntu/workspace/public/principal/index.php:3
+[10-Sep-2016 17:41:33 UTC] PHP Warning:  require(../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/carrito.php on line 2
+[10-Sep-2016 17:41:33 UTC] PHP Stack trace:
+[10-Sep-2016 17:41:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/carrito.php:0
+[10-Sep-2016 17:41:33 UTC] PHP Fatal error:  require(): Failed opening required '../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/carrito.php on line 2
+[10-Sep-2016 17:41:33 UTC] PHP Stack trace:
+[10-Sep-2016 17:41:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/carrito.php:0
+[10-Sep-2016 18:07:07 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/public/page1.php on line 165
+[10-Sep-2016 18:07:07 UTC] PHP Stack trace:
+[10-Sep-2016 18:07:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/carrito.php:0
+[10-Sep-2016 18:15:07 UTC] PHP Warning:  require(../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/productosesion.php on line 2
+[10-Sep-2016 18:15:07 UTC] PHP Stack trace:
+[10-Sep-2016 18:15:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/productosesion.php:0
+[10-Sep-2016 18:15:07 UTC] PHP Fatal error:  require(): Failed opening required '../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/productosesion.php on line 2
+[10-Sep-2016 18:15:07 UTC] PHP Stack trace:
+[10-Sep-2016 18:15:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/productosesion.php:0
+[10-Sep-2016 18:17:30 UTC] PHP Warning:  require(../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/productos.php on line 2
+[10-Sep-2016 18:17:30 UTC] PHP Stack trace:
+[10-Sep-2016 18:17:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/productos.php:0
+[10-Sep-2016 18:17:30 UTC] PHP Fatal error:  require(): Failed opening required '../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/productos.php on line 2
+[10-Sep-2016 18:17:30 UTC] PHP Stack trace:
+[10-Sep-2016 18:17:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/productos.php:0
+[10-Sep-2016 12:28:46 America/El_Salvador] PHP Warning:  require(../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/detallepro.php on line 6
+[10-Sep-2016 12:28:46 America/El_Salvador] PHP Stack trace:
+[10-Sep-2016 12:28:46 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detallepro.php:0
+[10-Sep-2016 12:28:46 America/El_Salvador] PHP Fatal error:  require(): Failed opening required '../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/detallepro.php on line 6
+[10-Sep-2016 12:28:46 America/El_Salvador] PHP Stack trace:
+[10-Sep-2016 12:28:46 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detallepro.php:0
+[10-Sep-2016 12:46:02 America/El_Salvador] PHP Warning:  require(../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/detallepro.php on line 6
+[10-Sep-2016 12:46:02 America/El_Salvador] PHP Stack trace:
+[10-Sep-2016 12:46:02 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detallepro.php:0
+[10-Sep-2016 12:46:02 America/El_Salvador] PHP Fatal error:  require(): Failed opening required '../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/detallepro.php on line 6
+[10-Sep-2016 12:46:02 America/El_Salvador] PHP Stack trace:
+[10-Sep-2016 12:46:02 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detallepro.php:0
+[11-Sep-2016 10:23:24 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat' in 'where clause'' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/productos/productos.php(22): Database::getRows('SELECT * FROM p...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[11-Sep-2016 10:33:56 America/El_Salvador] PHP Warning:  require(../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/detallepro.php on line 6
+[11-Sep-2016 10:33:56 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 10:33:56 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detallepro.php:0
+[11-Sep-2016 10:33:56 America/El_Salvador] PHP Fatal error:  require(): Failed opening required '../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/detallepro.php on line 6
+[11-Sep-2016 10:33:56 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 10:33:56 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detallepro.php:0
+[11-Sep-2016 10:34:41 America/El_Salvador] PHP Warning:  require(../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/detalleproductosesion.php on line 5
+[11-Sep-2016 10:34:41 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 10:34:41 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detalleproductosesion.php:0
+[11-Sep-2016 10:34:41 America/El_Salvador] PHP Fatal error:  require(): Failed opening required '../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/detalleproductosesion.php on line 5
+[11-Sep-2016 10:34:41 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 10:34:41 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detalleproductosesion.php:0
+[11-Sep-2016 10:34:51 America/El_Salvador] PHP Warning:  require(../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/detalleproductosesion.php on line 5
+[11-Sep-2016 10:34:51 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 10:34:51 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detalleproductosesion.php:0
+[11-Sep-2016 10:34:51 America/El_Salvador] PHP Fatal error:  require(): Failed opening required '../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/detalleproductosesion.php on line 5
+[11-Sep-2016 10:34:51 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 10:34:51 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detalleproductosesion.php:0
+[11-Sep-2016 10:40:30 America/El_Salvador] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/public/page1.php:169) in /home/ubuntu/workspace/public/page1.php on line 180
+[11-Sep-2016 10:40:30 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 10:40:30 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detalleproductosesion.php:0
+[11-Sep-2016 10:40:30 America/El_Salvador] PHP   2. Page::header() /home/ubuntu/workspace/public/productos/detalleproductosesion.php:15
+[11-Sep-2016 10:40:30 America/El_Salvador] PHP   3. header() /home/ubuntu/workspace/public/page1.php:180
+[11-Sep-2016 11:02:54 America/El_Salvador] PHP Fatal error:  Call to undefined function validarAcceso() in /home/ubuntu/workspace/public/page1.php on line 337
+[11-Sep-2016 11:02:54 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 11:02:54 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detallepro.php:0
+[11-Sep-2016 11:02:54 America/El_Salvador] PHP   2. Page::iniciado() /home/ubuntu/workspace/public/productos/detallepro.php:93
+[11-Sep-2016 11:08:27 America/El_Salvador] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/public/page1.php:169) in /home/ubuntu/workspace/public/productos/detallepro.php on line 43
+[11-Sep-2016 11:08:27 America/El_Salvador] PHP Stack trace:
+[11-Sep-2016 11:08:27 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detallepro.php:0
+[11-Sep-2016 11:08:27 America/El_Salvador] PHP   2. header() /home/ubuntu/workspace/public/productos/detallepro.php:43
+[12-Sep-2016 14:57:22 America/El_Salvador] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/public/page1.php:169) in /home/ubuntu/workspace/public/principal/registro.php on line 83
+[12-Sep-2016 14:57:22 America/El_Salvador] PHP Stack trace:
+[12-Sep-2016 14:57:22 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/principal/registro.php:0
+[12-Sep-2016 14:57:22 America/El_Salvador] PHP   2. header() /home/ubuntu/workspace/public/principal/registro.php:83
+[12-Sep-2016 14:58:39 America/El_Salvador] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/public/page1.php:169) in /home/ubuntu/workspace/public/principal/registro.php on line 83
+[12-Sep-2016 14:58:39 America/El_Salvador] PHP Stack trace:
+[12-Sep-2016 14:58:39 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/principal/registro.php:0
+[12-Sep-2016 14:58:39 America/El_Salvador] PHP   2. header() /home/ubuntu/workspace/public/principal/registro.php:83
+[13-Sep-2016 07:53:45 America/El_Salvador] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/public/page1.php:169) in /home/ubuntu/workspace/public/principal/registro.php on line 83
+[13-Sep-2016 07:53:45 America/El_Salvador] PHP Stack trace:
+[13-Sep-2016 07:53:45 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/principal/registro.php:0
+[13-Sep-2016 07:53:45 America/El_Salvador] PHP   2. header() /home/ubuntu/workspace/public/principal/registro.php:83
+[13-Sep-2016 08:05:28 America/El_Salvador] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/public/page1.php:169) in /home/ubuntu/workspace/public/principal/login.php on line 33
+[13-Sep-2016 08:05:28 America/El_Salvador] PHP Stack trace:
+[13-Sep-2016 08:05:28 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/principal/login.php:0
+[13-Sep-2016 08:05:28 America/El_Salvador] PHP   2. header() /home/ubuntu/workspace/public/principal/login.php:33
+[13-Sep-2016 08:06:59 America/El_Salvador] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/public/page1.php:169) in /home/ubuntu/workspace/public/page1.php on line 174
+[13-Sep-2016 08:06:59 America/El_Salvador] PHP Stack trace:
+[13-Sep-2016 08:06:59 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/principal/login.php:0
+[13-Sep-2016 08:06:59 America/El_Salvador] PHP   2. Page::header() /home/ubuntu/workspace/public/principal/login.php:52
+[13-Sep-2016 08:06:59 America/El_Salvador] PHP   3. header() /home/ubuntu/workspace/public/page1.php:174
+[13-Sep-2016 08:31:10 America/El_Salvador] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/public/page1.php:169) in /home/ubuntu/workspace/public/page1.php on line 174
+[13-Sep-2016 08:31:10 America/El_Salvador] PHP Stack trace:
+[13-Sep-2016 08:31:10 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/principal/login.php:0
+[13-Sep-2016 08:31:10 America/El_Salvador] PHP   2. Page::header() /home/ubuntu/workspace/public/principal/login.php:52
+[13-Sep-2016 08:31:10 America/El_Salvador] PHP   3. header() /home/ubuntu/workspace/public/page1.php:174
+[13-Sep-2016 15:11:09 UTC] PHP Warning:  require(../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:11:09 UTC] PHP Stack trace:
+[13-Sep-2016 15:11:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:11:09 UTC] PHP Fatal error:  require(): Failed opening required '../database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:11:09 UTC] PHP Stack trace:
+[13-Sep-2016 15:11:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:16:37 UTC] PHP Warning:  require(../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:16:37 UTC] PHP Stack trace:
+[13-Sep-2016 15:16:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:16:37 UTC] PHP Fatal error:  require(): Failed opening required '../database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:16:37 UTC] PHP Stack trace:
+[13-Sep-2016 15:16:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:35:59 UTC] PHP Warning:  require(../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:35:59 UTC] PHP Stack trace:
+[13-Sep-2016 15:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:35:59 UTC] PHP Fatal error:  require(): Failed opening required '../database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:35:59 UTC] PHP Stack trace:
+[13-Sep-2016 15:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:38:27 UTC] PHP Warning:  require(../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:38:27 UTC] PHP Stack trace:
+[13-Sep-2016 15:38:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:38:27 UTC] PHP Fatal error:  require(): Failed opening required '../database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:38:27 UTC] PHP Stack trace:
+[13-Sep-2016 15:38:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:49:14 UTC] PHP Warning:  require(../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:49:14 UTC] PHP Stack trace:
+[13-Sep-2016 15:49:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:49:14 UTC] PHP Fatal error:  require(): Failed opening required '../database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:49:14 UTC] PHP Stack trace:
+[13-Sep-2016 15:49:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:49:58 UTC] PHP Warning:  require(../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:49:58 UTC] PHP Stack trace:
+[13-Sep-2016 15:49:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:49:58 UTC] PHP Fatal error:  require(): Failed opening required '../database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 15:49:58 UTC] PHP Stack trace:
+[13-Sep-2016 15:49:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 15:51:58 UTC] PHP Warning:  require(../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/principal/logout.php on line 2
+[13-Sep-2016 15:51:58 UTC] PHP Stack trace:
+[13-Sep-2016 15:51:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/logout.php:0
+[13-Sep-2016 15:51:58 UTC] PHP Fatal error:  require(): Failed opening required '../database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/principal/logout.php on line 2
+[13-Sep-2016 15:51:58 UTC] PHP Stack trace:
+[13-Sep-2016 15:51:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/logout.php:0
+[13-Sep-2016 16:38:43 UTC] PHP Warning:  require(../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 16:38:43 UTC] PHP Stack trace:
+[13-Sep-2016 16:38:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 16:38:43 UTC] PHP Fatal error:  require(): Failed opening required '../database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/principal/clave.php on line 4
+[13-Sep-2016 16:38:43 UTC] PHP Stack trace:
+[13-Sep-2016 16:38:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/principal/clave.php:0
+[13-Sep-2016 17:19:33 UTC] PHP Warning:  require(../lib/pcliente.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[13-Sep-2016 17:19:33 UTC] PHP Stack trace:
+[13-Sep-2016 17:19:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[13-Sep-2016 17:19:33 UTC] PHP Fatal error:  require(): Failed opening required '../lib/pcliente.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[13-Sep-2016 17:19:33 UTC] PHP Stack trace:
+[13-Sep-2016 17:19:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[13-Sep-2016 17:19:34 UTC] PHP Warning:  require(../lib/pcliente.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[13-Sep-2016 17:19:34 UTC] PHP Stack trace:
+[13-Sep-2016 17:19:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[13-Sep-2016 17:19:34 UTC] PHP Fatal error:  require(): Failed opening required '../lib/pcliente.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[13-Sep-2016 17:19:34 UTC] PHP Stack trace:
+[13-Sep-2016 17:19:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[13-Sep-2016 17:20:13 UTC] PHP Warning:  require(../lib/pcliente.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[13-Sep-2016 17:20:13 UTC] PHP Stack trace:
+[13-Sep-2016 17:20:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[13-Sep-2016 17:20:13 UTC] PHP Fatal error:  require(): Failed opening required '../lib/pcliente.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[13-Sep-2016 17:20:13 UTC] PHP Stack trace:
+[13-Sep-2016 17:20:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[13-Sep-2016 17:20:13 UTC] PHP Warning:  require(../lib/pcliente.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[13-Sep-2016 17:20:13 UTC] PHP Stack trace:
+[13-Sep-2016 17:20:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[13-Sep-2016 17:20:13 UTC] PHP Fatal error:  require(): Failed opening required '../lib/pcliente.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[13-Sep-2016 17:20:13 UTC] PHP Stack trace:
+[13-Sep-2016 17:20:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[13-Sep-2016 17:22:18 UTC] PHP Warning:  require(../lib/pcliente.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[13-Sep-2016 17:22:18 UTC] PHP Stack trace:
+[13-Sep-2016 17:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[13-Sep-2016 17:22:18 UTC] PHP Fatal error:  require(): Failed opening required '../lib/pcliente.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[13-Sep-2016 17:22:18 UTC] PHP Stack trace:
+[13-Sep-2016 17:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[13-Sep-2016 20:55:10 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/ubuntu/workspace/public/cuenta/profile.php on line 51
+[13-Sep-2016 20:57:54 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/public/cuenta/profile.php on line 58
+[13-Sep-2016 15:07:37 America/El_Salvador] PHP Fatal error:  Call to undefined method Page::executeRow() in /home/ubuntu/workspace/public/cuenta/profile.php on line 53
+[13-Sep-2016 15:07:37 America/El_Salvador] PHP Stack trace:
+[13-Sep-2016 15:07:37 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/cuenta/profile.php:0
+[16-Sep-2016 01:03:09 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/public/productos/productos.php on line 21
+[16-Sep-2016 01:04:20 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/public/productos/productos.php on line 22
+[17-Sep-2016 17:28:01 UTC] PHP Warning:  require(../lib/pcliente.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[17-Sep-2016 17:28:01 UTC] PHP Stack trace:
+[17-Sep-2016 17:28:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 17:28:01 UTC] PHP Fatal error:  require(): Failed opening required '../lib/pcliente.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[17-Sep-2016 17:28:01 UTC] PHP Stack trace:
+[17-Sep-2016 17:28:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 17:55:03 UTC] PHP Warning:  require(../lib/page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[17-Sep-2016 17:55:03 UTC] PHP Stack trace:
+[17-Sep-2016 17:55:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 17:55:03 UTC] PHP Fatal error:  require(): Failed opening required '../lib/page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[17-Sep-2016 17:55:03 UTC] PHP Stack trace:
+[17-Sep-2016 17:55:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 18:55:13 UTC] PHP Warning:  require(../lib/database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 2
+[17-Sep-2016 18:55:13 UTC] PHP Stack trace:
+[17-Sep-2016 18:55:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 18:55:13 UTC] PHP Fatal error:  require(): Failed opening required '../lib/database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 2
+[17-Sep-2016 18:55:13 UTC] PHP Stack trace:
+[17-Sep-2016 18:55:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 18:55:29 UTC] PHP Warning:  require(../../page1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 2
+[17-Sep-2016 18:55:29 UTC] PHP Stack trace:
+[17-Sep-2016 18:55:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 18:55:29 UTC] PHP Fatal error:  require(): Failed opening required '../../page1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 2
+[17-Sep-2016 18:55:29 UTC] PHP Stack trace:
+[17-Sep-2016 18:55:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 18:56:40 UTC] PHP Warning:  require(../../page1.1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 2
+[17-Sep-2016 18:56:40 UTC] PHP Stack trace:
+[17-Sep-2016 18:56:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 18:56:40 UTC] PHP Fatal error:  require(): Failed opening required '../../page1.1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 2
+[17-Sep-2016 18:56:40 UTC] PHP Stack trace:
+[17-Sep-2016 18:56:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 18:56:43 UTC] PHP Warning:  require(../../page1.1.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 2
+[17-Sep-2016 18:56:43 UTC] PHP Stack trace:
+[17-Sep-2016 18:56:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 18:56:43 UTC] PHP Fatal error:  require(): Failed opening required '../../page1.1.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 2
+[17-Sep-2016 18:56:43 UTC] PHP Stack trace:
+[17-Sep-2016 18:56:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 18:56:50 UTC] PHP Warning:  require(../lib/database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 2
+[17-Sep-2016 18:56:50 UTC] PHP Stack trace:
+[17-Sep-2016 18:56:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 18:56:50 UTC] PHP Fatal error:  require(): Failed opening required '../lib/database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 2
+[17-Sep-2016 18:56:50 UTC] PHP Stack trace:
+[17-Sep-2016 18:56:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[17-Sep-2016 22:14:33 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/public/productos/detallepro.php on line 115
+[18-Sep-2016 02:04:39 UTC] PHP Warning:  require(../lib/pagina.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/eliminar.php on line 3
+[18-Sep-2016 02:04:39 UTC] PHP Stack trace:
+[18-Sep-2016 02:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 02:04:39 UTC] PHP Fatal error:  require(): Failed opening required '../lib/pagina.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/eliminar.php on line 3
+[18-Sep-2016 02:04:39 UTC] PHP Stack trace:
+[18-Sep-2016 02:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 02:05:04 UTC] PHP Fatal error:  Class 'Pagina' not found in /home/ubuntu/workspace/public/productos/eliminar.php on line 7
+[18-Sep-2016 02:05:04 UTC] PHP Stack trace:
+[18-Sep-2016 02:05:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 02:05:22 UTC] PHP Fatal error:  Class 'Page' not found in /home/ubuntu/workspace/public/productos/eliminar.php on line 7
+[18-Sep-2016 02:05:22 UTC] PHP Stack trace:
+[18-Sep-2016 02:05:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 02:06:00 UTC] PHP Fatal error:  Cannot redeclare class Database in /home/ubuntu/workspace/lib/database.php on line 2
+[18-Sep-2016 02:06:00 UTC] PHP Stack trace:
+[18-Sep-2016 02:06:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 03:08:50 UTC] PHP Fatal error:  Cannot redeclare class Database in /home/ubuntu/workspace/lib/database.php on line 2
+[18-Sep-2016 03:08:50 UTC] PHP Stack trace:
+[18-Sep-2016 03:08:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 03:09:11 UTC] PHP Warning:  require(../lib/database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/eliminar.php on line 5
+[18-Sep-2016 03:09:11 UTC] PHP Stack trace:
+[18-Sep-2016 03:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 03:09:11 UTC] PHP Fatal error:  require(): Failed opening required '../lib/database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/eliminar.php on line 5
+[18-Sep-2016 03:09:11 UTC] PHP Stack trace:
+[18-Sep-2016 03:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 03:09:35 UTC] PHP Warning:  require(../../../lib/database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/eliminar.php on line 5
+[18-Sep-2016 03:09:35 UTC] PHP Stack trace:
+[18-Sep-2016 03:09:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 03:09:35 UTC] PHP Fatal error:  require(): Failed opening required '../../../lib/database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/eliminar.php on line 5
+[18-Sep-2016 03:09:35 UTC] PHP Stack trace:
+[18-Sep-2016 03:09:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 03:09:48 UTC] PHP Fatal error:  Cannot redeclare class Database in /home/ubuntu/workspace/lib/database.php on line 2
+[18-Sep-2016 03:09:48 UTC] PHP Stack trace:
+[18-Sep-2016 03:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[17-Sep-2016 21:14:01 America/El_Salvador] PHP Fatal error:  Class 'Pagina' not found in /home/ubuntu/workspace/public/productos/eliminar.php on line 46
+[17-Sep-2016 21:14:01 America/El_Salvador] PHP Stack trace:
+[17-Sep-2016 21:14:01 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[17-Sep-2016 21:15:26 America/El_Salvador] PHP Fatal error:  Class 'Pagina' not found in /home/ubuntu/workspace/public/productos/eliminar.php on line 46
+[17-Sep-2016 21:15:26 America/El_Salvador] PHP Stack trace:
+[17-Sep-2016 21:15:26 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 04:29:37 UTC] PHP Warning:  require(../lib/page.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/eliminar.php on line 3
+[18-Sep-2016 04:29:37 UTC] PHP Stack trace:
+[18-Sep-2016 04:29:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 04:29:37 UTC] PHP Fatal error:  require(): Failed opening required '../lib/page.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/eliminar.php on line 3
+[18-Sep-2016 04:29:37 UTC] PHP Stack trace:
+[18-Sep-2016 04:29:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/eliminar.php:0
+[18-Sep-2016 04:31:29 UTC] PHP Warning:  require(../lib/database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[18-Sep-2016 04:31:29 UTC] PHP Stack trace:
+[18-Sep-2016 04:31:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[18-Sep-2016 04:31:29 UTC] PHP Fatal error:  require(): Failed opening required '../lib/database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[18-Sep-2016 04:31:29 UTC] PHP Stack trace:
+[18-Sep-2016 04:31:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[20-Sep-2016 07:41:34 UTC] PHP Warning:  require(../lib/database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[20-Sep-2016 07:41:34 UTC] PHP Stack trace:
+[20-Sep-2016 07:41:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[20-Sep-2016 07:41:34 UTC] PHP Fatal error:  require(): Failed opening required '../lib/database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/productos/mascarrito.php on line 1
+[20-Sep-2016 07:41:34 UTC] PHP Stack trace:
+[20-Sep-2016 07:41:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[20-Sep-2016 19:34:05 UTC] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/public/productos/mascarrito.php on line 5
+[20-Sep-2016 19:34:05 UTC] PHP Stack trace:
+[20-Sep-2016 19:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[20-Sep-2016 19:34:05 UTC] PHP   2. precioP() /home/ubuntu/workspace/public/productos/mascarrito.php:10
+[20-Sep-2016 19:34:20 UTC] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/public/productos/mascarrito.php on line 5
+[20-Sep-2016 19:34:20 UTC] PHP Stack trace:
+[20-Sep-2016 19:34:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[20-Sep-2016 19:34:20 UTC] PHP   2. precioP() /home/ubuntu/workspace/public/productos/mascarrito.php:10
+[20-Sep-2016 20:34:25 UTC] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/public/productos/mascarrito.php on line 5
+[20-Sep-2016 20:34:25 UTC] PHP Stack trace:
+[20-Sep-2016 20:34:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/productos/mascarrito.php:0
+[20-Sep-2016 20:34:25 UTC] PHP   2. precioP() /home/ubuntu/workspace/public/productos/mascarrito.php:10
+[21-Sep-2016 03:30:16 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/public/noticias/noticias.php on line 32
+[21-Sep-2016 03:31:07 UTC] PHP Parse error:  syntax error, unexpected 'col' (T_STRING) in /home/ubuntu/workspace/public/noticias/noticias.php on line 28
+[21-Sep-2016 08:46:52 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM carrito c INNER JOIN productos p ON c.id_producto = p.id_producto WHERE md5' at line 1' in /home/ubuntu/workspace/public/page1.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(45): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/productos/carrito.php(29): Database::getRow('SELECT p.precio...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 45
+[24-Sep-2016 20:02:10 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/public/noticias/noticias.php on line 28
+[24-Sep-2016 14:32:46 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jugueton.noticia' doesn't exist' in /home/ubuntu/workspace/public/page1.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(45): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(55): Database::getRow('SELECT * FROM n...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 45
+[24-Sep-2016 15:15:04 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(45): Database::getRows('SELECT * FROM n...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 21:15:22 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/public/noticias/detallenot.php on line 45
+[24-Sep-2016 15:15:48 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(45): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 15:28:46 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(45): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 15:40:00 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM carrito c INNER JOIN productos p ON c.id_producto = p.id_producto WHERE md5' at line 1' in /home/ubuntu/workspace/public/page1.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(45): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/productos/carrito.php(29): Database::getRow('SELECT p.precio...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 45
+[24-Sep-2016 15:51:56 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(10): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 15:52:39 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(45): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(10): Database::getRow('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 45
+[24-Sep-2016 15:57:01 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(45): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(10): Database::getRow('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 45
+[24-Sep-2016 15:57:09 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(10): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 15:59:54 America/El_Salvador] PHP Fatal error:  Class 'page1' not found in /home/ubuntu/workspace/public/noticias/detallenot.php on line 10
+[24-Sep-2016 15:59:54 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 15:59:54 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/noticias/detallenot.php:0
+[24-Sep-2016 16:00:08 America/El_Salvador] PHP Fatal error:  Call to undefined method Page::getRow() in /home/ubuntu/workspace/public/noticias/detallenot.php on line 10
+[24-Sep-2016 16:00:08 America/El_Salvador] PHP Stack trace:
+[24-Sep-2016 16:00:08 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/noticias/detallenot.php:0
+[24-Sep-2016 16:00:26 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(10): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 16:27:28 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(10): Database::getRows('SELECT * FROM n...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 16:27:53 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(10): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 22:46:19 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/public/noticias/detallenot.php on line 79
+[24-Sep-2016 22:47:54 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/public/noticias/detallenot.php on line 78
+[24-Sep-2016 19:05:09 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(48): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 19:07:45 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_producto' in 'where clause'' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(48): Database::getRows('SELECT * FROM n...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 19:07:59 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_producto' in 'where clause'' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(48): Database::getRows('SELECT * FROM n...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 19:34:53 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.id_comentario' in 'order clause'' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(100): Database::getRows('SELECT CONCAT(s...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 19:42:54 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/noticias.php(10): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 19:42:56 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/noticias.php(10): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[24-Sep-2016 20:21:18 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jugueton.comentarios_noticia' doesn't exist' in /home/ubuntu/workspace/public/page1.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(45): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(24): Database::getRow('SELECT * FROM c...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 45
+[25-Sep-2016 12:53:31 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/noticias.php(10): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[25-Sep-2016 12:54:17 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/noticias.php(10): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[25-Sep-2016 12:55:46 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/noticias.php(10): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[25-Sep-2016 12:56:07 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/noticias/noticias.php(10): Database::getRows('SELECT * FROM n...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[25-Sep-2016 13:18:44 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.id_producto' in 'on clause'' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(100): Database::getRows('SELECT CONCAT(s...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[25-Sep-2016 13:59:36 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM carrito c INNER JOIN productos p ON c.id_producto = p.id_producto WHERE md5' at line 1' in /home/ubuntu/workspace/public/page1.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(45): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/productos/carrito.php(29): Database::getRow('SELECT p.precio...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 45
+[25-Sep-2016 14:09:30 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM carrito c INNER JOIN productos p ON c.id_producto = p.id_producto WHERE md5' at line 1' in /home/ubuntu/workspace/public/page1.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(45): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/productos/carrito.php(29): Database::getRow('SELECT p.precio...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 45
+[25-Sep-2016 20:14:32 UTC] PHP Parse error:  syntax error, unexpected '$val' (T_VARIABLE) in /home/ubuntu/workspace/public/productos/carrito.php on line 26
+[25-Sep-2016 23:33:21 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/public/productos/detallepro.php on line 122
+[25-Sep-2016 23:35:53 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/public/productos/detallepro.php on line 122
+[25-Sep-2016 23:49:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/public/productos/detallepro.php on line 118
+[25-Sep-2016 18:08:19 America/El_Salvador] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/public/page1.php:187) in /home/ubuntu/workspace/public/productos/detallepro.php on line 33
+[25-Sep-2016 18:08:19 America/El_Salvador] PHP Stack trace:
+[25-Sep-2016 18:08:19 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/productos/detallepro.php:0
+[25-Sep-2016 18:08:19 America/El_Salvador] PHP   2. header() /home/ubuntu/workspace/public/productos/detallepro.php:33
+[26-Sep-2016 00:21:55 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/public/noticias/detallenot.php on line 127
+[25-Sep-2016 18:22:21 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.id_comentario' in 'field list'' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/noticias/detallenot.php(111): Database::getRows('?SELECT CONCAT(...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[26-Sep-2016 00:37:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_producto' cannot be null' in /home/ubuntu/workspace/public/page1.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(36): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/productos/mascarrito.php(16): Database::executeRow('INSERT INTO car...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 36
+[25-Sep-2016 21:10:48 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'c.id_cliente = '22')' at line 1' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/productos/venta.php(30): Database::getRows('SELECT * FROM d...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[25-Sep-2016 21:57:30 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/productos/carrito.php(80): Database::getRows('SELECT * FROM v...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[26-Sep-2016 04:42:00 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/public/noticias/detallenot.php on line 86
+[25-Sep-2016 23:53:31 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND existencias_producto > 0' at line 1' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/principal/index.php(77): Database::getRows('SELECT * FROM p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[25-Sep-2016 23:53:56 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND existencias_producto > 0' at line 1' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/principal/index.php(77): Database::getRows('SELECT * FROM p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[25-Sep-2016 23:55:06 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND existencias_producto > 0' at line 1' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/principal/index.php(82): Database::getRows('SELECT * FROM p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[25-Sep-2016 23:58:00 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND estado = '1' AND existencias_producto > 0' at line 1' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/principal/index.php(86): Database::getRows('SELECT * FROM p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[25-Sep-2016 23:58:53 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND estado = '1' AND existencias_producto > 0' at line 1' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/principal/index.php(88): Database::getRows('SELECT * FROM p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[26-Sep-2016 11:09:07 America/El_Salvador] PHP Fatal error:  Call to undefined function imagen2() in /home/ubuntu/workspace/public/noticias/detallenot.php on line 70
+[26-Sep-2016 11:09:07 America/El_Salvador] PHP Stack trace:
+[26-Sep-2016 11:09:07 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/noticias/detallenot.php:0
+[26-Sep-2016 11:12:19 America/El_Salvador] PHP Fatal error:  Call to undefined function imagen2() in /home/ubuntu/workspace/public/noticias/detallenot.php on line 70
+[26-Sep-2016 11:12:19 America/El_Salvador] PHP Stack trace:
+[26-Sep-2016 11:12:19 America/El_Salvador] PHP   1. {main}() /home/ubuntu/workspace/public/noticias/detallenot.php:0
+[26-Sep-2016 19:22:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/public/page1.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(36): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/productos/carrito.php(52): Database::executeRow('UPDATE ventas S...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 36
+[26-Sep-2016 19:27:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/public/page1.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(36): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/public/productos/carrito.php(52): Database::executeRow('UPDATE ventas S...', Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 36
+[26-Sep-2016 20:43:23 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/productos/productos.php(78): Database::getRows('SELECT * FROM p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[26-Sep-2016 20:45:42 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/productos/productos.php(78): Database::getRows('SELECT * FROM p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[26-Sep-2016 20:48:03 America/El_Salvador] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/public/page1.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/public/page1.php(53): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/public/productos/productos.php(78): Database::getRows('SELECT * FROM p...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/public/page1.php on line 53
+[27-Sep-2016 02:52:10 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/public/productos/productos.php on line 79
